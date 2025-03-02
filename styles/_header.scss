@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    height: 78px;
+    margin-top:10px;
+}
+
+img {
+    margin: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    width: 80%;
+    align-items: flex-end;
+}
+
+.menu {
+    display: flex;
+    width: 20%;
+
+}
+
+.button__menu {
+    width: 110px;
+    height: 46px;
+    background-color: #ffffff;
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    line-height: auto;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    border: none; 
+}
