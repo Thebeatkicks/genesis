@@ -6,6 +6,8 @@ main {
 
 }
 
+
+
 section {
     width: 1110px;
 }
@@ -153,11 +155,12 @@ text-align: center;
 }
 
 .project__table {
-    width: 60%;
+    width: 80%;
     justify-items: end;
     display: flex;
     flex-direction: row;
     border-bottom:1px solid black;
+    justify-content: space-between;
 }
 
 div {
