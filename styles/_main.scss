@@ -3,32 +3,31 @@ main {
     justify-items: center;
     width: 1110px;
     flex-wrap: wrap;
-
 }
 
 section {
     width: 1110px;
 }
 .content-wrapper {
-    position: relative;
     display: flex;
+    
     flex-direction: row;
     max-width: 100%;
-    height: 626px;
 }
 
 .content__left {
     max-width: 635px;
     width: 100%;
-
+    align-content: center;
+    height: 400px;
 }
 
 .content__right {
     max-width: 212px;
     width: 100%;
     margin-left: 50px;
-    align-content:flex-end;
-    margin-bottom: 30px;
+    align-content:end; 
+    height: 300px;
 }
                     
 .content__small {
@@ -230,3 +229,77 @@ input::placeholder, .textarea::placeholder {
         background-color: #FFB039;
         color: rgba(70, 96, 96, 1);
     }
+
+    .grid_container {
+        display: grid;
+        grid-template-columns:  repeat(9, 1fr);
+        grid-template-rows: repeat(32, 1fr);
+        grid-gap: 20px;
+        background-color: rgb(255, 255, 255);
+        height: 1969px;
+    }
+    
+    .grid__element {
+
+    }
+    
+    .first {
+        grid-row: 1 / 8;
+        grid-column: 1 / 4;
+    }
+    
+    .second {
+        grid-row: 1 / 7;
+        grid-column: 4 / 7;
+    }
+    
+    .third {
+        grid-row: 1 / 11;
+        grid-column: 7 / 10;
+    }
+    
+    .fourth {
+        grid-row: 8 / 16;
+        grid-column: 1 / 4;
+    }
+    
+    .fifth {
+        grid-row: 7 / 14;
+        grid-column: 4 / 7;
+    }
+    
+    .sixth {
+        grid-row: 11 / 17;
+        grid-column: 7 / 10; 
+    }
+    
+    .seventh {
+        grid-row: 16 / 24;
+        grid-column: 1 / 4;  
+    }
+    
+    .eight {
+        grid-row: 14 / 23;
+        grid-column: 4 / 7;  
+    }
+    
+    .ninth {
+        grid-row: 18 / 27;
+        grid-column: 7 / 10;   
+    }
+    
+    .tenth {
+        grid-row: 24 / 32;
+        grid-column: 1 / 4;
+    }
+    
+    .eleventh {
+        grid-row: 23 / 32;
+        grid-column: 4 / 7;  
+    }
+    
+    .twelth {
+        grid-row: 27 / 32;
+        grid-column: 7 / 10;
+    }
+    
